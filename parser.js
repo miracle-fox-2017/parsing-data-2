@@ -90,18 +90,17 @@ var randomPhone = faker.phone.phoneNumberFormat()
 let parser = new PersonParser('people.csv')
 // assign hasil baca file ke property this._people
 parser.people = parser.readFile();
-parser.readFileYaml()
 
 // addPerson = first_name,last_name,email,phone (id dan created_at otomatis)
 // input dari faker
-// parser.addPerson(randomFirstName,randomLastName,randomEmail,randomPhone);
+parser.addPerson(randomFirstName,randomLastName,randomEmail,randomPhone);
 
 // deletePerson by id
 // parser.deletePerson(200)
 
 // save
-// parser.save();
-// parser.save_as_yaml()
-// parser.save_as_json()
+parser.save();
+parser.save_as_yaml()
+parser.save_as_json()
 
 console.log(`There are ${parser.people.size} people in the file '${parser.file}'.`)
