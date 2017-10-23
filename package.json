@@ -1,0 +1,24 @@
+{
+  "name": "parsing-data-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "node-yaml": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miracle-fox-2017/parsing-data-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miracle-fox-2017/parsing-data-1/issues"
+  },
+  "homepage": "https://github.com/miracle-fox-2017/parsing-data-1#readme"
+}
